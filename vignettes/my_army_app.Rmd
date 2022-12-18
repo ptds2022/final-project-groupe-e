@@ -1,8 +1,8 @@
 ---
-title: "The Military App You Need"
+title: "my_army_app"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{my-vignette}
+  %\VignetteIndexEntry{my_army_app}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -12,10 +12,6 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
-```
-
-```{r setup}
-library(pkgrpEArmy)
 ```
 
 # Introduction   
@@ -46,7 +42,3 @@ This function is used to recall and generate a shiny app. This shiny app is a Mi
 The app is entirely in English with exercises explanation, video (in French) and also a connection to the website of each military classes directly from the final table.   
 The purpose of our application is also to be as much user-friendly as possible and we tried to make it really easy to use. So to get the final result the user has just to set the result obtained in each exercise 
 with a slider, this will immediately update the radar chart, with the "total points" section, shown under the sliders and the table on the side of the chart that is containing the military classes.
-
-
-
-
