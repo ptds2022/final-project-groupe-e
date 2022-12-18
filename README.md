@@ -1,4 +1,4 @@
-# pkgrpEArmy
+# pkgrpArmy
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/jackb998/pkgrpE_Army/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jackb998/pkgrpE_Army/actions/workflows/R-CMD-check.yaml)
