@@ -27,7 +27,7 @@
 
 ## About the package   
 
-The goal of pkgrpEArmy is to generate a shiny app by calling the function "militaryapp()".   
+The goal of pkgrpArmy is to generate a shiny app by calling the function "militaryapp()".   
 Please see more the vignette section "my_army_app" and "description" for more info.
 
 ## Installation
@@ -36,14 +36,14 @@ You can install the development version of pkgrpEArmy from [GitHub](https://gith
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("ManoelPidoux/PTDS-Final-Project-Group-E")
+devtools::install_github("jackb998/pkgrpE_Army")
 ```
 
 <!-- DATA USED -->
 ## Data Used
 
-The following websites were used to export data: 
-1. [Points Score Data](https://www.baspo.admin.ch/content/baspo-internet/fr/sportfoerderung/breitensport/fitnesstest-armee-fta-rekrutierung/_jcr_content/contentPar/accordion/accordionItems/268_1649923349772/accordionPar/downloadlist_copy_92/downloadItems/74_1632920294073.download/f_Poster_FTA_Rekrutierung_2021_Tabelle_screen.pdf)
+The following websites were used to export data:    
+1. [Points Score Data](https://www.baspo.admin.ch/content/baspo-internet/fr/sportfoerderung/breitensport/fitnesstest-armee-fta-rekrutierung/_jcr_content/contentPar/accordion/accordionItems/268_1649923349772/accordionPar/downloadlist_copy_92/downloadItems/74_1632920294073.download/f_Poster_FTA_Rekrutierung_2021_Tabelle_screen.pdf)   
 2. [Sport Performances](https://www.miljobs.ch/fr/funtkionen-von-a-bis-z)
 
 <!-- EXAMPLES -->   

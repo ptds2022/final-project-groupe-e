@@ -14,6 +14,10 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r setup}
+library(pkgrpArmy)
+```
+
 # Introduction   
 
 This is a package that will mainly generate a shiny-app (web application) to allow you simulate the military physical test for to be prepared for the real one.
