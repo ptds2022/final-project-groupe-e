@@ -8,6 +8,8 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
+  <li>
+      <a href="#the-package-website">The Package Website</a>
     <li>
       <a href="#about-the-package">About The Package</a>
       <ul>
@@ -22,6 +24,12 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
+
+<!-- THE PACKAGE WEBSITE -->  
+
+## The Package Website
+
+[THE PACKAGE WEBSITE](https://jackb998.github.io/pkgrpE_Army/)   
 
 <!-- ABOUT THE PACKAGE -->   
 
