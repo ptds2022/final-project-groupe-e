@@ -260,8 +260,9 @@ Take your place on the back line that serves as the starting line. Wait for the 
     output$plot <- renderPlot({
       Convert(jumping = input$Jump, ball_toss = input$Ball, equilibrium = input$Equil, planking = input$Plank, running = input$Run )
     })
+    test <- reactive(Orientation(Convert(jumping = input$Jump, ball_toss = input$Ball, equilibrium = input$Equil, planking = input$Plank, running = input$Run )))
     output$dynamic <- renderDataTable({
-      Orientation(Convert(jumping = input$Jump, ball_toss = input$Ball, equilibrium = input$Equil, planking = input$Plank, running = input$Run ))}, options = list(pageLength = 5, lengthMenu = c(5, 10), autoWidth = FALSE,ordering = FALSE)
+      test()},escape = FALSE, options = list(pageLength = 5, lengthMenu = c(5, 10), autoWidth = FALSE,ordering = FALSE)
     )
   }
 
